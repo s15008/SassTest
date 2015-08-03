@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* ネストの使用 */
+#main {
+  width: 800px;
+  height: 50px;
+}
+#main h1 {
+  color: #112233;
+  background-color: #445566;
+}
+#main p {
+  color: blue;
+  background-color: red;
+}
+
+/*
+ * プロパティのネスト
+ * ミックスイン
+ */
+.mainmix {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: #fff;
+}
+
+.secondmix {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: grey;
+}
+
+/* 変数の使用 */
+.maincontainer {
+  width: 500px;
+  color: #aa443f;
+}
+
+/* 加減乗除 */
+.coloradd {
+  color: #555566;
+}
+
+/* 引数の使用 */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* 条件分岐 */
+p {
+  color: blue;
+}
+
+/* 繰り返しfor */
+.nav-1 {
+  width: 2em;
+}
+
+.nav-2 {
+  width: 4em;
+}
+
+.nav-3 {
+  width: 6em;
+}
+
+.nav-4 {
+  width: 8em;
+}
+
+.nav-5 {
+  width: 10em;
+}
+
+/* 繰り返しeach */
+.hehochin-name {
+  background-image: url("/image/hehochin.png");
+}
+
+.yukko-name {
+  background-image: url("/image/yukko.png");
+}
+
+.sumipe-name {
+  background-image: url("/image/sumipe.png");
+}
+
+.natune-name {
+  background-image: url("/image/natune.png");
+}
+
+/* 繰り返しeach */
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}
+
+.item-4 {
+  width: 8em;
+}
